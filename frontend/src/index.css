@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: rgba(243, 228, 201, 0.22); /* Subtly tinted brand-cream background */
+    color: #0A2947; /* text-brand-navy as default primary text */
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #0A2947; /* text-brand-navy for primary headings */
+  }
+}
+
+/* Crisp Government Portal Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(243, 228, 201, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D3D4C0; /* brand-sage thumb */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8B5E3C; /* brand-bronze hover */
+}

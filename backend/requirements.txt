@@ -1,0 +1,26 @@
+# NiyamDrishti AI — Backend Requirements
+
+# Core Web & API
+fastapi>=0.110.0
+uvicorn>=0.30.0
+pydantic>=2.9.0
+python-multipart>=0.0.12
+python-dateutil>=2.9.0
+
+# Database Layer
+sqlalchemy>=2.0.30
+
+# Computer Vision & Quality Gate
+pillow>=10.0.0
+opencv-python-headless>=4.8.0
+numpy>=1.24.0
+
+# OCR & Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+easyocr>=1.7.0
+pytesseract>=0.3.10
+
+# Networking & Utilities
+requests>=2.31.0
+httpx>=0.27.0
