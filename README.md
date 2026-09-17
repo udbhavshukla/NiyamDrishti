@@ -67,12 +67,3 @@ discover -s tests -v` → **49 passed, 0 failed** (SQLite and PostgreSQL 18.6).
 | 6 — Integration/QA/Deploy | Setup, QA gate, security, hosting | `setup.*`, `RUN_PROJECT.md`, env |
 Details: `team/member1.md` … `team/member6.md`, `docs/TEAM_RESPONSIBILITIES.md`.
 
-## Current limitations (honest)
-Demo officer PINs are hardcoded; read endpoints are unauthenticated in this MVP;
-no rate limiting/HTTPS yet; Flutter multi-panel flow pending; `npm run build` and
-`flutter analyze` need SDK-equipped machines. Full board: `PROJECT_STATUS.md`.
-
-## Docs & audit
-Start with `docs/PROJECT_OVERVIEW.md`, then `docs/ARCHITECTURE.md`,
-`docs/API_GUIDE.md`. Upload safety: `GITHUB_UPLOAD_AUDIT.md` lists every included
-and excluded file with reasons — no secrets are committed (`.env.example` only).
